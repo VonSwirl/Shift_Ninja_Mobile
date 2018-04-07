@@ -3,9 +3,7 @@
 namespace ShiftNinjaMobile.ViewModels
 {
     class NavMenuViewModel : DefaultViewModel
-
-      
-      
+  
     {
         public ObservableCollection<NavMenuItems> MenuItems { get; set; }
 
@@ -52,7 +50,7 @@ namespace ShiftNinjaMobile.ViewModels
                 Id = 4,
                 Title = "About Developer",
                 SelectMenuItem = MenuItem.AboutDeveloper,
-                Icon = "jeromeProfileSmall.png"
+                Icon = "devProfile.png"
             });
         }
     }

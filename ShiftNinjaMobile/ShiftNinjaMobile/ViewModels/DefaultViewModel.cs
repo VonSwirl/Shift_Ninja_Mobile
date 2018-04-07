@@ -7,9 +7,6 @@ namespace ShiftNinjaMobile
 {
     public class DefaultViewModel : INotifyPropertyChanged
     {
-        public DefaultViewModel()
-        {
-        }
 
         private string title = string.Empty;
         public const string TitlePropertyName = "Title";
