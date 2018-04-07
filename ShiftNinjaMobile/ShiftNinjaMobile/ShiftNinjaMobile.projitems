@@ -22,6 +22,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Services\MockDataStore.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)StandAloneControllers\NavigationPane.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\DefaultViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NavMenuViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\AboutDeveloperPage.xaml.cs">
       <DependentUpon>AboutDeveloperPage.xaml</DependentUpon>
     </Compile>
