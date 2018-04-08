@@ -4,11 +4,11 @@ namespace ShiftNinjaMobile
 {
     public enum MenuItem
     {
-        AboutDeveloper,
         AboutShiftNinja,
         WorkCalender,
         ShiftHistory,
-        UserProfile
+        UserProfile,
+        AboutDeveloper
     }
     public class NavMenuItems: DefaultModel
     {

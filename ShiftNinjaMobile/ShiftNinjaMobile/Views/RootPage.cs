@@ -45,20 +45,26 @@ namespace ShiftNinjaMobile.Views
             {
                 switch (id)
                 {
-                    case (int)MenuItem.AboutShiftNinja:
+                    case (int)
+                        MenuItem.AboutShiftNinja:
                         Pages.Add(id, new ShiftNinjaNavigationPane(new AboutShiftNinjaPage()));
                         break;
-                    case (int)MenuItem.AboutDeveloper:
-                        Pages.Add(id, new ShiftNinjaNavigationPane(new AboutDeveloperPage()));
+                    case (int)
+                        MenuItem.WorkCalender:
+                        Pages.Add(id, new ShiftNinjaNavigationPane(new WorkCalenderPage()));
                         break;
-                    case (int)MenuItem.ShiftHistory:
+                    case (int)
+                        MenuItem.ShiftHistory:
                         Pages.Add(id, new ShiftNinjaNavigationPane(new ShiftHistoryPage()));
                         break;
-                    case (int)MenuItem.UserProfile:
+                    case (int)
+                        MenuItem.UserProfile:
                         Pages.Add(id, new ShiftNinjaNavigationPane(new UserProfilePage()));
                         break;
-                    case (int)MenuItem.WorkCalender:
-                        Pages.Add(id, new ShiftNinjaNavigationPane(new WorkCalenderPage()));
+                    
+                    case (int)
+                        MenuItem.AboutDeveloper:
+                        Pages.Add(id, new ShiftNinjaNavigationPane(new AboutDeveloperPage()));
                         break;
                 }
             }

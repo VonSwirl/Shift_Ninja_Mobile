@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace ShiftNinjaMobile.Views
 {
+    [XamlCompilation (XamlCompilationOptions.Compile)]
     public partial class NavMenuSlideOutPage : ContentPage
     {
         RootPage root;
@@ -30,11 +32,11 @@ namespace ShiftNinjaMobile.Views
 
             ListViewMenu.ItemsSource = menuItems = new List<NavMenuItems>
                 {
-                    new NavMenuItems { Title = "Shift Ninja", SelectMenuItem = MenuItem.AboutShiftNinja, Icon ="shiftNinjaIconSmall.png" },
-                    new NavMenuItems { Title = "About Developer", SelectMenuItem = MenuItem.AboutDeveloper, Icon = "jeromeProfileSmall.png" },
-                    new NavMenuItems{ Title = "View Shift History", SelectMenuItem = MenuItem.ShiftHistory, Icon = "twitternav.png" },
-                    new NavMenuItems { Title = "View Profile", SelectMenuItem = MenuItem.UserProfile, Icon = "hm.png" },
-                    new NavMenuItems { Title = "View Calender", SelectMenuItem = MenuItem.WorkCalender, Icon = "ratchet.png" }
+                    new NavMenuItems { Title = "About Shift Ninja", SelectMenuItem = MenuItem.AboutShiftNinja, Icon ="icon.png" },
+                    new NavMenuItems { Title = "Calender", SelectMenuItem = MenuItem.WorkCalender, Icon = "workCalender.png" },
+                    new NavMenuItems{ Title = "Shift History", SelectMenuItem = MenuItem.ShiftHistory, Icon = "history.png" },
+                    new NavMenuItems { Title = "My Profile", SelectMenuItem = MenuItem.UserProfile, Icon = "userProfile.png" },
+                    new NavMenuItems { Title = "About Developer", SelectMenuItem = MenuItem.AboutDeveloper, Icon = "devProfile.png" }
 
                 };
 
