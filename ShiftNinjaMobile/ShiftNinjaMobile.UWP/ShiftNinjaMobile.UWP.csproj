@@ -109,8 +109,9 @@
     <None Include="ShiftNinjaMobile.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="devProfile.png" />
     <Content Include="history.png" />
-    <AndroidResource Include="icon.png" />
+    <Content Include="icon.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />
     <Content Include="Assets\LockScreenLogo.scale-125.png" />
@@ -143,9 +144,9 @@
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
-    <AndroidResource Include="slideout.png" />
+    <Content Include="slideout.png" />
     <Content Include="userProfile.png" />
-    <AndroidResource Include="workCalender.png" />
+    <Content Include="workCalender.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

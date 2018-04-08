@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace ShiftNinjaMobile.Views
 {
+    [XamlCompilation (XamlCompilationOptions.Compile)]
     public partial class NavMenuSlideOutPage : ContentPage
     {
         RootPage root;
