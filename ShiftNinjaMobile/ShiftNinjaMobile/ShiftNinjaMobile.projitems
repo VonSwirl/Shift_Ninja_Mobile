@@ -18,6 +18,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\DefaultModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Item.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\NavMenuItems.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\QualificationsModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\RecruitsModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SwiftEventsModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\IDataStore.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\MockDataStore.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)StandAloneControllers\NavigationPane.cs" />

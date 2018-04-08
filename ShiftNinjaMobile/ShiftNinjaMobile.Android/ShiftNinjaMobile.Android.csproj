@@ -44,6 +44,9 @@
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Reflection.Metadata">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.netcore.universalwindowsplatform\6.0.8\ref\uap10.0.15138\System.Reflection.Metadata.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
   </ItemGroup>
